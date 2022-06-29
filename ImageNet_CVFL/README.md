@@ -1,4 +1,19 @@
-# C-VFL with ImageNet dataset
+# Compressed Vertical Federated Learning
+
+Code for simulating C-VFL, a communication-efficient algorithm for vertically partitioned data.
+More details on the algorithm can be in our paper: [**Compressed-VFL: Communication-Efficient Learning with Vertically
+Partitioned Data**](https://arxiv.org/abs/2206.08330):
+
+```
+@inproceedings{castiglia2022compressed,
+  title={Compressed-VFL: Communication-Efficient Learning with Vertically Partitioned Data},
+  author={Castiglia, Timothy and Das, Anirban and Wang, Shiqiang and Patterson, Stacy},
+  booktitle={International Conference on Machine Learning},
+  year={2022}
+}
+```
+
+## C-VFL with ImageNet dataset
 
 This directory is an extension of the Momentum Contrast (MoCo) with Alignment and Uniformity Losses for C-VFL: [github.com/SsnL/moco_align_uniform](https://github.com/SsnL/moco_align_uniform)
 
