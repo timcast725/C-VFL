@@ -20,7 +20,7 @@ experiments with C-VFL: [github.com/RBirkeland/MVCNN-PyTorch](https://github.com
 
 ### Dataset
 Our code uses a 10 class subset of the ModelNet40 dataset.
-ModelNet40 12-view PNG dataset can be downloaded from [Google Drive](https://drive.google.com/file/d/0B4v2jR3WsindMUE3N2xiLVpyLW8/view).
+ModelNet40 12-view PNG dataset can be downloaded from [Google Drive](https://drive.google.com/file/d/1YaGWesl9DyYNoE8Pfe80EmqHkoJ0XlKU/view?usp=sharing).
 
 Our scripts additionally require that the ModelNet10
 dataset is preprocessed and placed in a folder
