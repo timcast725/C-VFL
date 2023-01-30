@@ -35,11 +35,11 @@ conda env create -f flearn.yml
 ### Usage
 Example for running C-VFL code with the ModelNet10 dataset with the number of clients=4, number of local iterations Q=10, and vector quantization b=3.
 ```bash
-python quant.py 10class/classes/ --num_clients 4 --seed {seed} --b 16 --local_epochs 10 --epochs 50 --lr 0.01 --quant_level 8 --vecdim 2 --comp quantize
+python quant.py 10class/classes/ --num_clients 4 --b 16 --local_epochs 10 --epochs 50 --lr 0.001 --quant_level 8 --vecdim 2 --comp quantize
 ```
 Example for running C-VFL code with the CIFAR-10 dataset with the number of clients=4, number of local iterations Q=10, and vector quantization b=3.
 ```bash
-python quant_cifar.py 10class/classes/ --num_clients 4 --seed {seed} --b 100 --local_epochs 10 --epochs 200 --lr 0.0001 --quant_level 8 --vecdim 2 --comp quantize
+python quant_cifar.py 10class/classes/ --num_clients 4 --b 100 --local_epochs 10 --epochs 200 --lr 0.0001 --quant_level 8 --vecdim 2 --comp quantize
 ```
 
 ### Running C-VFL and Plotting Results
